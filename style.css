@@ -84,7 +84,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     sub{top:.5ex}
     small{font-size:smaller}
     input{margin-bottom:10px}
-    input[type="text"],input[type="password"],input[type="email"],input[type="url"],input[type="number"],textarea{background:#f9f9f9;border:1px solid #ccc;box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-moz-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-webkit-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);padding:2px}
+    input[type="text"],input[type="password"],input[type="email"],input[type="url"],input[type="number"],textarea{
+        background:#f9f9f9;border:1px solid #ccc;box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-moz-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);-webkit-box-shadow:inset 1px 1px 1px rgba(0,0,0,0.1);padding:2px}
 
     a:link{color:#06c}
     a:visited{color:#743399}
