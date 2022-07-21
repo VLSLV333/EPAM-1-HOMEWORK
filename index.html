@@ -13,23 +13,23 @@
       <div id="container">
         <div id="content" role="main">
           <!-- TODO: Content goes here -->
-          <header>
+          <header id="home">
             <img src="./logo.png" alt="EPAM Logo">
             <h1><b>HTML Elements</b></h1>
           </header>
           <hr>
             <nav>
               <ul style="margin: 0 0 0 10px;">
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>Home</b></a></li>
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>Headers</b></a></li>
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>Table</b></a></li>
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>List</b></a></li>
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>Text formats</b></a></li>
-                <li style="display: inline; padding: 0 20px 0 0;"><a href="#"><b>Blockquotes</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#home"><b>Home</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#headers"><b>Headers</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#table"><b>Table</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#list"><b>List</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#text-formats"><b>Text formats</b></a></li>
+                <li style="display: inline; padding: 0 20px 0 0;"><a href="#blockquotes"><b>Blockquotes</b></a></li>
               </ul>
             </nav>
           <hr>
-          <main>
+          <main id="headers">
             <p>Pay attention to h1 tag inside section element. Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page, and it is commonly used inside header</p>
             <h2>
               Header 2
@@ -50,7 +50,7 @@
             <p>Lorem ipsum dolor sit amet, <a href="https://careers.epam.ua/" target="_blank">test link</a> adipiscing elit. <strong>This is strong.</strong> Nullam dignissim convallis est. Quisque aliquam. <em>This is emphasized.</em> Donec faucibus. Nunc iaculis suscipit dui. 5<sup>3</sup>  = 125. Water is H<sub>2</sub>O. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. <cite>The New York Times</cite> (That’s a citation).<u>Underline.</u> Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus.</p>
             <p><abbr title="HyperText Markup Language">HTML</abbr> and <abbr title="Cascading Style Sheets">CSS</abbr> are our tools. Mauris a ante. Suspendisse quam sem, consequat at, commodo vitae, feugiat in, nunc. Morbi imperdiet augue quis tellus. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus. To copy a file type <kbd>COPY</kbd> <i>filename.</i> <del>Dinner`s at 5:00.</del> <ins>Let’s make that 7.</ins> This <s>text</s> has been struck.</p>
             <hr>
-            <h2>Table</h2>
+            <h2 id="table">Table</h2>
             <table>
               <tbody>
                 <tr>
@@ -93,7 +93,7 @@
                 </tr>
               </tbody>
             </table>
-            <h2>
+            <h2 id="list">
               Unordered List
             </h2>
             <ul>
@@ -155,7 +155,7 @@
               <option value="JS">JS</option>
             </select>
             <hr>
-            <h2>
+            <h2 id="text-formats">
               Text formats
             </h2>
             <h3>
@@ -192,7 +192,7 @@ both           spaces and
 }
               </code>
             </pre>
-            <h2>
+            <h2 id="blockquotes">
               Blockquotes
             </h2>
             <p>
@@ -224,7 +224,6 @@ both           spaces and
               <input type="submit" value="Submit" style="height:20px; width:58px; font-size: 13px;">
             </div>
             </form>
-            
             <footer>
               © Copyright Epam Systems
             </footer>
